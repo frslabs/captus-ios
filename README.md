@@ -101,7 +101,7 @@ class YourViewController: UIViewController,OCRDelegate {
 }
 ```
 
-2. Invoke Vidus SDK
+2. Invoke Captus SDK
 
 ```swift
     // ...
