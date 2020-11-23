@@ -94,7 +94,7 @@ class YourViewController: UIViewController,OCRDelegate {
     }
     func captusFailureResponse(ocr: OCRNavigationViewController, didFailWithError error: String) {
         // Error
-        let erroor =  error
+        let error =  error
     }
   
 }
@@ -106,14 +106,13 @@ class YourViewController: UIViewController,OCRDelegate {
     // ...
     
     override func viewDidAppear(_ animated: Bool) {
-         let ocrVC = OCRNavigationViewController(delegate: self)
-             ocrVC.modalPresentationStyle = .fullScreen
-             ocrVC.licenceKey = "LICENSE_KEY"
-             ocrVC.baseURL = "BASE_URL"
-             ocrVC.referenceID =  "SERVER_REFENENCE_ID"
-             ocrVC.serverHeader = "SERVER_HEADER"
-             present(ocrVC, animated: true)
-           }
+          let ocrVC = OCRNavigationViewController(delegate: self)
+          ocrVC.modalPresentationStyle = .fullScreen
+          ocrVC.licenceKey = "LICENSE_KEY"
+          ocrVC.baseURL = "BASE_URL"
+          ocrVC.referenceID =  "SERVER_REFENENCE_ID"
+          ocrVC.serverHeader = "SERVER_HEADER"
+          present(ocrVC, animated: true)
     }
     // ...    
 ```
