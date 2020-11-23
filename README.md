@@ -67,7 +67,7 @@ password <YOUR_PASSOWRD>
 
    pod install or pod update.
 
-4. Connect with physical device to build and run holus, It will not build/run in simulator due to camera dependency.
+4. Connect with physical device to build and run captus, It will not build/run in simulator due to camera dependency.
 
 To get the full benefits import `captus` wherever you import UIKit
 
