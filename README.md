@@ -1,5 +1,5 @@
 # CAPTUS iOS SDK
-![version](https://img.shields.io/badge/version-v1.0.0-blue)
+![version](https://img.shields.io/badge/version-v1.2.0-blue)
 
 The Captus SDK is a set of screens to capture the front and back images of ID documents. It also allows the user to manually verify that the documents are clean and clear. This SDK is useful for IDs that cannot be processed on the mobile and needs server-side processing. 
 
@@ -44,10 +44,10 @@ You can use [CocoaPods](http://cocoapods.org/) to install `captus` by adding it 
 ```ruby
 source 'https://gitlab.com/frslabs-public/ios/captus-ios.git'
 source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '11.0'
+platform :ios, '12.0'
 target '<Your Target Name>' do
 use_frameworks!
-pod 'Captus', '1.0.0'
+pod 'Captus', '1.2.0'
 pod 'Alamofire', '~> 4.9.1'
 end
 ```
