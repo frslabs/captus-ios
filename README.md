@@ -96,8 +96,6 @@ class YourViewController: UIViewController,OCRDelegate {
         // Error
         let erroor =  error
     }
-    override func viewDidLoad() {
-        super.viewDidLoad()
   
 }
 ```
@@ -116,7 +114,7 @@ class YourViewController: UIViewController,OCRDelegate {
              ocrVC.serverHeader = "SERVER_HEADER"
              present(ocrVC, animated: true)
            }
-    
+    }
     // ...    
 ```
 ## Captus Error Codes
