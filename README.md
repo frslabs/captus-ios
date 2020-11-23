@@ -124,14 +124,14 @@ Following error codes will be returned on the `onCaptusFailure` method of the ca
 
 | CODE | DESCRIPTION                  |
 | ---- | ---------------------------- |
-| 803  | Camera permission deny    |
-| 804  | Capture interruption            |
-| 805  | Captus SDK License has expire             |
+| 803  | Camera permission denied    |
+| 804  | Capture interrupted            |
+| 805  | Captus SDK License has expired             |
 | 806  | Captus SDK License is invalid             |
-| 802  | Sdk Interruption          |
-| 814  | Image upload fail            |
-| 1001 | Error parsing result         |
 | 901  | Network error               |
+| 902  | Image upload failed                  |
+| 1001 | Error parsing result         |
+
 
  Sets the Captus SDK apiCredentials . Obtain the appropriate api credentials through a REST API call , for details about     the REST API, contact `support@frslabs.com`
   
