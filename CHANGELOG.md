@@ -1,3 +1,6 @@
+## **v1.2.0** - *23-11-2020*
+- Bug fixes.
+
 ## **v1.1.0** - *29-10-2020*
 - Bug fixes.
 - Support for capturing Id sides.
