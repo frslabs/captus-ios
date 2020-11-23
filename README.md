@@ -131,7 +131,7 @@ Following error codes will be returned on the `onCaptusFailure` method of the ca
 | 802  | Sdk Interruption          |
 | 814  | Image upload fail            |
 | 1001 | Error parsing result         |
-| 901  | No internet             |
+| 901  | Network error               |
 
  Sets the Captus SDK apiCredentials . Obtain the appropriate api credentials through a REST API call , for details about     the REST API, contact `support@frslabs.com`
   
