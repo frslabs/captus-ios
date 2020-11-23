@@ -59,7 +59,7 @@ You will need a valid netrc credentials to install captus from maven, which can 
 1. Create or edit .netrc file under current user's home directory
 2. Write the below lines into that file, replace <YOUR_USERNAME> and <YOUR_PASSWORD> with your credentials which is shared through email and save the file.
 ```ruby
-machine holus-ios.repo.frslabs.space
+machine captus-ios.repo.frslabs.space
 login <YOUR_USERNAME>
 password <YOUR_PASSOWRD>
 ```
