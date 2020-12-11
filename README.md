@@ -114,7 +114,7 @@ class YourViewController: UIViewController,OCRDelegate {
           ocrVC.serverHeader = "SERVER_HEADER"
           ocrVC.idSides = 1    // 1 or 2 based on ID sides
           ocrVC.documentType = CaptusDocument.PAN.rawValue    // used while capturing for IDs
-          ocrVC.isAutomatic = true      // true for capturing images, false for Egypt
+          ocrVC.isAutomatic = true      // true for capturing ID images, false for Egypt API
           if ocrVC.isOCR == true{       // if invoking SDK for Egypt API
             ocrVC.serverHeader = serverHeader
           }else{                       // if invoking for capturing IDs Images
