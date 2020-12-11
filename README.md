@@ -143,19 +143,19 @@ class YourViewController: UIViewController,OCRDelegate {
 
    Following error codes will be returned on the `onCaptusFailure` method of the callback
 
-      | CODE | DESCRIPTION                  |
-      | ---- | ---------------------------- |
-      | 801  | Scan Time Out               |
-      | 803  | Camera permission denied    |
-      | 804  | Capture interrupted            |
-      | 805  | Captus SDK License has expired             |
-      | 806  | Captus SDK License is invalid             |
-      | 901  | Network error               |
-      | 902  | Image upload failed                  |
-      | 1001 | Error parsing result         |
+   | CODE | DESCRIPTION                  |
+   | ---- | ---------------------------- |
+   | 801  | Scan Time Out               |
+   | 803  | Camera permission denied    |
+   | 804  | Capture interrupted            |
+   | 805  | Captus SDK License has expired             |
+   | 806  | Captus SDK License is invalid             |
+   | 901  | Network error               |
+   | 902  | Image upload failed                  |
+   | 1001 | Error parsing result         |
 
 
-    Sets the Captus SDK apiCredentials . Obtain the appropriate api credentials through a REST API call , for details about     the REST API, contact `support@frslabs.com`
+   Sets the Captus SDK apiCredentials . Obtain the appropriate api credentials through a REST API call , for details about     the REST API, contact `support@frslabs.com`
 
 
    ## Help
