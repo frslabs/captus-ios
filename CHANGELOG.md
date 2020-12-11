@@ -1,3 +1,7 @@
+## **v1.3.0** - *11-12-2020*
+- UI Changes.
+- Added Cropping and rotation of images.
+
 ## **v1.2.0** - *23-11-2020*
 - Bug fixes.
 
