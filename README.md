@@ -80,27 +80,7 @@ import Captus
 
 ### Swift
 
-1. Initialize the input parameters and import delegate OCRDelegate
-
-```swift
-class YourViewController: UIViewController,OCRDelegate {
-
-  func captusSuccessResponse(ocr: OCRNavigationViewController, didFinishOcrWithResult results: CaptusResults) {
-        let amlCheck = results.amlCheckStatus
-        // Will return Array of images path
-        let imagePath = results.imagePath
-        // Will return Array of image reference Id
-        let imageReferenceId = results.imageReferenceId
-    }
-    func captusFailureResponse(ocr: OCRNavigationViewController, didFailWithError error: String) {
-        // Error
-        let error =  error
-    }
-  
-}
-```
-
-2. Invoke Captus SDK
+1. Invoke Captus SDK
 
 ```swift
     // ...
@@ -123,6 +103,26 @@ class YourViewController: UIViewController,OCRDelegate {
           present(ocrVC, animated: true)
       }
     // ...    
+```
+
+2. Handling the result and import delegate OCRDelegate
+
+```swift
+class YourViewController: UIViewController,OCRDelegate {
+
+  func captusSuccessResponse(ocr: OCRNavigationViewController, didFinishOcrWithResult results: CaptusResults) {
+        let amlCheck = results.amlCheckStatus
+        // Will return Array of images path
+        let imagePath = results.imagePath
+        // Will return Array of image reference Id
+        let imageReferenceId = results.imageReferenceId
+    }
+    func captusFailureResponse(ocr: OCRNavigationViewController, didFailWithError error: String) {
+        // Error
+        let error =  error
+    }
+  
+}
 ```
 ## Captus Error Codes
 
