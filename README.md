@@ -139,7 +139,7 @@ class YourViewController: UIViewController,OCRDelegate {
   | CaptusDocument.VID   | Voter ID               |
   | CaptusDocument.DRV   | Driving Licence        |
   
-## Captus Error Codes
+ ## Captus Error Codes
 
    Following error codes will be returned on the `onCaptusFailure` method of the callback
 
