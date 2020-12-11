@@ -124,6 +124,21 @@ class YourViewController: UIViewController,OCRDelegate {
   
 }
 ```
+## Captus Parameters
+   For IDs Capturing of Document Type
+ 
+- `ocrVC.documentType = CaptusDocument.PAN.rawValue ` ***(Required)***
+  
+  Sets the Document which has to be scanned. Possible values are, 
+  
+  | Value          | Effect                 |
+  | -------------- | ---------------------- |
+  | CaptusDocument.PAN   | Pan Card               |
+  | CaptusDocument.PPT   | Passport               |
+  | CaptusDocument.ADR   | Aadhaar Card           |
+  | CaptusDocument.VID   | Voter ID               |
+  | CaptusDocument.DRV   | Driving Licence        |
+  
 ## Captus Error Codes
 
 Following error codes will be returned on the `onCaptusFailure` method of the callback
