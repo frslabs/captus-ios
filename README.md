@@ -125,7 +125,7 @@ class YourViewController: UIViewController,OCRDelegate {
 }
 ```
 ## Captus Parameters
-   For IDs Capturing of Document Type
+   Types of Documents:
  
 - `ocrVC.documentType = CaptusDocument.PAN.rawValue ` ***(Required)***
   
