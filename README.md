@@ -1,5 +1,5 @@
 # CAPTUS iOS SDK
-![version](https://img.shields.io/badge/version-v1.2.0-blue)
+![version](https://img.shields.io/badge/version-v1.3.0-blue)
 
 The Captus SDK is a set of screens to capture the front and back images of ID documents. It also allows the user to manually verify that the documents are clean and clear. This SDK is useful for IDs that cannot be processed on the mobile and needs server-side processing. 
 
@@ -47,7 +47,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '12.0'
 target '<Your Target Name>' do
 use_frameworks!
-pod 'Captus', '1.2.0'
+pod 'Captus', '1.3.0'
 pod 'Alamofire', '~> 4.9.1'
 end
 ```
@@ -112,8 +112,16 @@ class YourViewController: UIViewController,OCRDelegate {
           ocrVC.baseURL = "BASE_URL"
           ocrVC.referenceID =  "SERVER_REFENENCE_ID"
           ocrVC.serverHeader = "SERVER_HEADER"
+          ocrVC.idSides = 1    // 1 or 2 based on requirement
+          ocrVC.documentType = CaptusDocument.PAN.rawValue    // used while capturing for IDs
+          ocrVC.isAutomatic = true      // true for capturing images, false for Egypt
+          if ocrVC.isOCR == true{       // if invoking SDK for Egypt API
+            ocrVC.serverHeader = serverHeader
+          }else{                       // if invoking for capturing IDs Images
+            ocrVC.serverHeader = ""
+          }
           present(ocrVC, animated: true)
-    }
+      }
     // ...    
 ```
 ## Captus Error Codes
@@ -122,6 +130,7 @@ Following error codes will be returned on the `onCaptusFailure` method of the ca
 
 | CODE | DESCRIPTION                  |
 | ---- | ---------------------------- |
+| 801  | Scan Time Out               |
 | 803  | Camera permission denied    |
 | 804  | Capture interrupted            |
 | 805  | Captus SDK License has expired             |
