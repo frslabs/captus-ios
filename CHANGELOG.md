@@ -1,3 +1,7 @@
+
+## **v1.3.0** - *11-12-2020*
+- Updated swift version.
+
 ## **v1.3.0** - *11-12-2020*
 - UI Changes.
 - Edge Detection of images according to the ID size.
