@@ -1,5 +1,5 @@
 # CAPTUS iOS SDK
-![version](https://img.shields.io/badge/version-v1.3.0-blue)
+![version](https://img.shields.io/badge/version-v1.3.1-blue)
 
 The Captus SDK is a set of screens to capture the front and back images of ID documents. It also allows the user to manually verify that the documents are clean and clear. This SDK is useful for IDs that cannot be processed on the mobile and needs server-side processing. 
 
@@ -47,7 +47,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '12.0'
 target '<Your Target Name>' do
 use_frameworks!
-pod 'Captus', '1.3.0'
+pod 'Captus', '1.3.1'
 pod 'Alamofire', '~> 4.9.1'
 end
 ```
