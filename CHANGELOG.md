@@ -1,4 +1,7 @@
 
+## **v1.3.2** - *13-07-2021*
+- Updated swift version.
+
 ## **v1.3.1** - *14-05-2021*
 - Updated swift version.
 
