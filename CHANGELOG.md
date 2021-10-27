@@ -1,3 +1,7 @@
+## **v1.4.1** - *27-11-2021*
+- Xcode version Update.
+- Bug Fixes
+- Updated swift version.
 
 ## **v1.4.0** - *13-07-2021*
 - Updated swift version.
