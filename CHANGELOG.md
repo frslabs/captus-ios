@@ -1,3 +1,8 @@
+## **v1.4.5** - *25-02-2022*
+- Edge detection improvements.
+- Bug fixes.
+- Swift & Xcode version Update.
+
 ## **v1.4.3** - *28-12-2021*
 - Swift & Xcode version Update.
 
