@@ -1,5 +1,5 @@
 ## **v1.4.5** - *25-02-2022*
-- Edge detection improvements.
+- Edge detection & capture improvements.
 - Bug fixes.
 - Swift & Xcode version Update.
 
