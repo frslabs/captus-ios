@@ -151,7 +151,7 @@ class YourViewController: UIViewController,OCRDelegate {
    | 804  | Capture interrupted            |
    | 805  | Captus SDK License has expired             |
    | 806  | Captus SDK License is invalid             |
-   | 806  | Transaction failed / Unable to ping |
+   | 808 | Transaction failed / Unable to ping |
    | 901  | Network error               |
    | 902  | Image upload failed                  |
    | 1001 | Error parsing result         |
