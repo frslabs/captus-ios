@@ -1,3 +1,7 @@
+
+## **v1.4.6** - *15-04-2022*
+- Swift & Xcode 13.3.1 version Update.
+
 ## **v1.4.5** - *25-02-2022*
 - Edge detection & capture improvements.
 - Bug fixes.
