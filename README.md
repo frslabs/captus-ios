@@ -5,6 +5,8 @@ The Captus SDK is a set of screens to capture the front and back images of ID do
 
 You can find the release history at [Changelog](CHANGELOG.md)
 
+‼ ATTENTION ‼ → BREAKING CHANGE introduced at Octus SDK `v1.5.1`. We have introduced a new license format. If you are using versions prior to `v1.5.1` and intend to update to `v1.5.1` or above please contact `support@frslabs.com` for an updated license.
+
 # Table Of Content
 
 - [Prerequisite](#prerequisite)
